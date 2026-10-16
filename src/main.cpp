@@ -8,11 +8,10 @@ using namespace pros;
 
 // Every time "LEFT_WHEELS_PORT" is used, it will be replaced with the value 1.
 #define LEFT_WHEELS_PORT 1
-#define RIGHT_WHEELS_PORT -5
-#define ARM_PORT 4
-#define CLAW_PORT 7
-#define IMU_PORT 10
-
+#define RIGHT_WHEELS_PORT 2
+#define ARM_PORT 3
+#define CLAW_PORT 4
+#define IMU_PORT 7
 
 // Drivetrian definitions
 Motor left_wheels (LEFT_WHEELS_PORT);
@@ -208,6 +207,7 @@ void autonomous() {
 
 // Task: Finish the code below so it completes the same T shape as above, but using IMU and distance sensor.
 
+/* ============================ Delete 
 void autonomous() {
 
 	// IMU and Distance Sensor definitions
@@ -276,6 +276,7 @@ void autonomous() {
 
 // Now try using the IMU to drive straight!
 
+========================================= DELETE */
 
 
 
